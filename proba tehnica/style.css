@@ -1,0 +1,535 @@
+.culoare{
+  background: #272A45;
+border-radius: 30px;
+border: transparent;
+}
+
+/* .linie{
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+
+} */
+
+ @media screen and (max-width: 990px) {
+.nav-link{
+  width: 30vw;
+  height: auto;
+  font-size: 3vw;
+
+}
+ }
+@media screen and (max-width: 750px) {
+  .linie{
+    max-width: 70%;
+    height: 25vw;
+    position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: -1;
+  }
+  .titlu{
+   max-width: 30vw;
+   height: auto;
+
+ }
+
+ }
+ @media screen and (min-width: 750px) {
+  .linie{
+    max-width: 65%;
+    height: 15vw;
+    position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: -1;
+  }
+  .titlu {
+   max-width: 78%;
+   height: auto;
+   margin-top:2%;
+   margin-left:5%;
+}
+
+ }
+
+ .navbar-dark .navbar-toggler {
+  color: transparent !important;
+  border-color: transparent !important;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("imagini/hamburger.png") !important;
+}
+
+@media screen and (min-width: 575px)
+{
+  #div1{
+    height: 40vw;
+    overflow: auto;
+    text-align: left;
+  }
+  #div2{
+    height: 40vw;
+    background-image: url("imagini/imagine.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+  }
+  .margini{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .textmare{
+    font-size: 2.8vw;
+    font-weight: bold;
+  }
+    .textmic{
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .textdreptunghi{
+    color: white;
+    font-size: 3vw;
+    align-self: center;
+  }
+  .textintrebare{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+  }
+  .marginidreptunghi{
+
+    margin-bottom: 6%;
+  }
+  .marginititlu{
+    margin-top:5%;
+    margin-bottom:3%;
+  }
+  .marginintrebare{
+    margin-bottom: 4%;
+  }
+  .margine1{
+    margin-left: 9%;
+  }
+}
+@media screen and (max-width: 575px)
+{
+  #div1{
+    height: 50vw;
+    overflow: auto;
+    text-align: center;
+  }
+  #div2{
+    height: 50vw;
+    background-image: url("imagini/imagine.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .margini{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .textmare{
+  font-size: 4vw;
+  font-weight: bold;
+}
+  .textmic{
+  font-size: 3vw;
+  font-weight: bold;
+}
+.textdreptunghi{
+  color: white;
+  font-size: 4vw;
+  align-self: center;
+}
+.textintrebare{
+  color: white;
+  font-size: 2.2vw;
+  text-align: center;
+}
+.marginidreptunghi{
+
+  margin-bottom: 7%;
+}
+.marginititlu{
+  margin-top:5%;
+  margin-bottom:3%;
+}
+.margine1{
+  margin-left: 18%;
+}
+}
+
+
+.bloc{
+  display: block;
+}
+.distanta{
+  position: relative;
+  top: 10%;
+}
+
+.distanta2{
+  position: relative;
+  top:30%;
+}
+.distanta3{
+  position:relative;
+  top:15%;
+
+}
+.rectangle{
+  position: absolute;
+  background: linear-gradient(180deg, #B3F3FF 0%, #AEC5FF 100%);
+  height: auto;
+  border-radius: 30px;
+  width: 85%;
+  z-index: 0;
+}
+.buton{
+  background: linear-gradient(180deg, #AFD0FF 0%, #B2EEFF 99.99%, rgba(175, 209, 255, 0) 100%);
+  border-radius: 40px;
+  width: 20vw;
+  height: 6vw;
+  text-align:center;
+  font-size: 2.5vw;
+  line-height: 50%;
+  border: transparent;
+
+}
+.stacked-rect {
+  z-index: 1;
+  background: #272A45;
+  margin-top: 5%;
+  margin-left: 5%;
+
+}  
+.main-container {
+  position: relative;
+  width: 100%; 
+  height: 50vw; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.umbra{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.distantacarusel{
+  position: relative;
+  top:25%;
+  height: 40vw;
+}
+.carousel-control-prev-icon{
+  background-image: url("sageata.png") !important;
+  width: 5vw !important;
+  height: 5vw !important;
+}
+.carousel-control-next-icon{
+  background-image: url("sageata.png") !important;
+  transform: scaleX(-1);
+  width: 5vw !important;
+  height: 5vw !important;
+}
+.card{
+  height: 40vw;
+  background-image: url("imagini/Rectangle\ 23.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.next{
+  position: absolute;
+  max-width: 5vw;
+  height: auto;
+  left:0%;
+}
+.prev{
+  position: absolute;
+  max-width: 5vw;
+  height: auto;
+  transform: rotate(180deg);
+  right:0% ;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 40%;
+ 
+}
+
+.owl-prev {
+  left: 2.5%;
+}
+
+.owl-next {
+  right: 2.5%;
+}
+.item{
+  background: linear-gradient(180deg, #B1E0FF 17.19%, #AEC0FF 71.35%);
+  margin-left: 18%;
+  margin-right: 18%;
+  border-radius: 20px; 
+  min-height: 28vw;
+}
+.poza{
+  width: 10%;
+  height: 10%;
+}
+
+.marginicard{
+  margin-top:8%;
+  margin-bottom: 8%;
+}
+.inputzone{
+  position: relative;
+  top: 42%;
+  width: 80%;
+  background-image: url("imagini/Frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.input{
+  background: #FFFFFF;
+border: 3px solid #000000;
+box-sizing: border-box;
+width: 50%;
+height: auto;
+font-size: 2.5vw;
+}
+.facebook{
+  position: absolute;
+  background-image: url("imagini/facebook.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 4vw;
+  height: 4vw;
+  right: 18%;
+  bottom: 1%;
+  border: transparent;
+  background-color: transparent;
+}
+.insta{
+  position: absolute;
+  background-image: url("imagini/insta.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 4vw;
+  height: 4vw;
+  right: 12%;
+  bottom: 1%;
+  border: transparent;
+  background-color: transparent;
+
+}
+.twitter{
+  position: absolute;
+  background-image: url("imagini/twitter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 4vw;
+  height: 4vw;
+  right: 6%;
+  bottom: 1%;
+  border: transparent;
+  background-color: transparent;
+}
+.popup{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 50vw;
+  padding: 2vw 3vw;
+  background: #272A45;
+  border-radius: 10%; 
+  opacity: 0%;
+  z-index: -1;
+
+ 
+}
+.popup.active{
+  top:50%;
+  opacity: 100%;
+  transform: translate(-50%,-50%);
+  transition: top 0ms ease-in-out 0ms,opacity 200ms ease-in-out 0ms,transform 20ms ease-in-out 0ms;
+   z-index: 4;
+
+   
+}
+.popup .close-btn{
+  position: absolute;
+  top:2%;
+  right:2%;
+  width: 10%;
+  color:white;
+  height: 10%;
+  text-align: center;
+  cursor: pointer;
+  font-size:2.5vw;
+}
+.popup .form h2{
+  text-align: center;
+  color:white;
+  font-size:2.5vw;
+}
+
+.popup .form .form-element{
+  margin-top:3%;
+}
+.popup .form .form-element label{
+  font-size:2vw;
+  color:white;
+}
+.popup .form .form-element input[type="text"],
+.popup .form .form-element input[type="email"],
+.popup .form .form-element input[type="password"]
+{
+  display: block;
+  width: 100%;
+  padding: 1vw;
+  outline: none;
+  border: 1px solid #aaa;
+  background: #DBDBDB;
+  font-size: 1.5vw;
+}
+.popup .form .form-element button{
+  border:none;
+  outline: none;
+  background: linear-gradient(180deg, #AFD0FF 0%, #B2EEFF 99.99%, rgba(175, 209, 255, 0) 100%);
+  border-radius: 30px;
+  transform: translateX(+100%);
+  width: 15vw;
+  height: 4vw;
+  text-align:center;
+  font-size: 2vw;
+  line-height: 50%;
+}
+.popup .form .form-element a{
+  text-align: left;
+  font-size:1.5vw;
+  color:white;
+  
+}
+.estompare{
+  background-color: red;
+  height: 100vh;
+}
+.register{
+  position: absolute;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 50vw;
+  padding: 2vw 3vw;
+  background: #272A45;
+  border-radius: 10%; 
+  opacity: 0%;
+  z-index: -1;
+
+ 
+}
+.register.active{
+  top:50%;
+  opacity: 100%;
+  transform: translate(-50%,-30%);
+  transition: top 0ms ease-in-out 0ms,opacity 200ms ease-in-out 0ms,transform 20ms ease-in-out 0ms;
+   z-index: 4;
+
+   
+}
+.register .close-btn{
+  position: absolute;
+  top:2%;
+  right:2%;
+  width: 10%;
+  color:white;
+  height: 10%;
+  text-align: center;
+  cursor: pointer;
+  font-size:2.5vw;
+}
+.register .form h2{
+  text-align: center;
+  color:white;
+  font-size:2.5vw;
+  margin-top: 5%;
+}
+
+.register .form .form-element{
+  margin-top:3%;
+}
+.register .form .form-element label{
+  font-size:2vw;
+  color:white;
+}
+.register .form .form-element input[type="text"],
+.register .form .form-element input[type="email"],
+.register .form .form-element input[type="password"]
+{
+  display: block;
+  width: 100%;
+  padding: 1vw;
+  outline: none;
+  border: 1px solid #aaa;
+  background: #DBDBDB;
+  font-size: 1.5vw;
+}
+.register .form .form-element button{
+  width: 15vw;
+  height: 4vw;
+ text-align:center;
+ font-size: 2vw;
+ line-height: 50%;
+ background: linear-gradient(180deg, #AFD0FF 0%, #B2EEFF 99.99%, rgba(175, 209, 255, 0) 100%);
+  border-radius: 30px;
+   border:none;
+  outline: none;
+  transform: translateX(+100%);
+  margin-top: 2%;
+}
+.register .form .form-element a{
+  text-align: left;
+  font-size:1.5vw;
+  color:white;
+  
+}
+.register .form .form-element select
+{ 
+  display: block;
+  width: 35%;
+  padding: 1vw;
+  outline: none;
+  border: 1px solid #aaa;
+  background: #DBDBDB;
+  font-size: 1.5vw;
+  right:0%;
+  border-radius: 20px;
+}
+.page-mask {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0%;
+}
+.page-mask.active{
+  opacity: 100%;
+  z-index: 3;
+  transition: top 0ms ease-in-out 0ms,opacity 200ms ease-in-out 0ms,transform 20ms ease-in-out 0ms;
+}

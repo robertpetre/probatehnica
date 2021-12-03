@@ -1,3 +1,5 @@
 # probatehnica
 Am ales proba de frontend.
-Aplicatia se ruleaza descarcand tot directorul "proba tehnica" din repository-ul de pe github si ruland fisierul "pagina 1.html".
+Aplicatia se ruleaza descarcand tot directorul "proba tehnica" din repository-ul de pe github si deschizand fisierul "pagina 1.html".
+Am implementat o bara de navigatie folosind Bootstrap 5 navbar, popup-uri de login si register pe care le-am legat cu backend-ul, am creat un carousel pentru recenzii folosind Owl Carousel si am structurat majoritatea elementelor din pagina folosind grid system-ul din Bootstrap pentru a fi responsive.
+Toata proba a fost un challenge pentru ca nu am facut niciodata un site si singurii termeni pe care ii auzisem legati de site-uri au fost HTML CSS si Java, dar nu stiam in ce constau acestia. Pentru a intelege bazele construirii unui site am urmarit trainingurile puse la dispozitie de LSAC si de fiecare data cand am intampinat o problema am cerut ajutorul mentorului si am incercat sa caut pe internet o rezolvare. Am avut si probleme legate de pozitionari si sizing la care am stat destul de mult sa gasesc valorile potrivite ca totul sa arate bine. Sper ca arata bine site-ul, chiar daca nu am terminat. :(
